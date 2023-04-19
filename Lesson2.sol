@@ -10,6 +10,13 @@ contract Demo {
         items[9] = 3;
     }
 
+    function memArr() public view returns(uint[] memory) {
+        uint[] memory tempArr = new uint[](10);
+        tempArr[3] = 10;
+
+        return tempArr;
+    }
+
     // ENUM
     enum Status { Paid, Delivered, Recivied }
     Status public curStatus;

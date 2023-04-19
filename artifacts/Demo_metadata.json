@@ -53,6 +53,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "memArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "pay",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -94,11 +107,11 @@
 	},
 	"sources": {
 		"Lesson2.sol": {
-			"keccak256": "0x33f364e6a58a92360fb924d8b91970d07880793216cbcfc9ab11b38d6fd7dcf6",
+			"keccak256": "0xf99b647b9aa7334f0a98e3d8f672ea899b5d881bffa28773a9e3b2cbd49ca780",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://2598ec9ae10d6bc78cfdfa4af3596746e15f44312c2ace37deca223c1225ce5a",
-				"dweb:/ipfs/QmSe5n8kT6FNLHoztvY4KdgfPqYcbs8LnRJdfR4TM1MV8m"
+				"bzz-raw://06dac22e249bad9dc8bebfe35420c16e4f3a0523583016a6068e1319c59879f7",
+				"dweb:/ipfs/QmbVSDkzFqTsqJ1fYQmB2NN21kVJXogcuUPK1qT3K6RDhC"
 			]
 		}
 	},
